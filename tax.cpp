@@ -6,14 +6,13 @@ int main ()
 {
 
 int tree;
-cout << "Estimate Tree's monthly income : " ; // 7400 HKD
+cout << "Estimate Tree's monthly income : " ; // eg 17400 HKD
 cin >> tree ;
 
 int nat;
-cout << "Estimate Nat's monthly income : "; //106538
 cin >> nat ;
 
-cout << " \n Tree Monthly Income  :  " << tree; 
+cout << " \n Tree Monthly Income  :  " << tree;
 cout << " \n Nat Monthly Income :  " << nat ;
 
 int monthly = tree + nat;
